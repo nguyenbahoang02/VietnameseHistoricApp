@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Label fx:id="name" alignment="CENTER" prefHeight="144.0" prefWidth="1024.0" text="Sự kiện lịch sử " BorderPane.alignment="CENTER">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+   </top>
+   <center>
+      <ScrollPane minWidth="-Infinity" prefHeight="200.0" prefWidth="1024.0" BorderPane.alignment="CENTER">
+         <content>
+            <VBox fx:id="infoBox" minWidth="-Infinity" prefHeight="700.0" prefWidth="1024.0" spacing="10.0">
+               <children>
+                  <HBox fx:id="time" minHeight="-Infinity" prefHeight="48.0" prefWidth="1024.0" style="-fx-alignment: CENTER_LEFT;">
+                     <children>
+                        <Label prefHeight="48.0" prefWidth="81.0" text="Thời gian:">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox fx:id="historicalFigures" minHeight="-Infinity" prefHeight="48.0" prefWidth="1024.0" style="-fx-alignment: CENTER_LEFT;">
+                     <children>
+                        <Label prefHeight="48.0" prefWidth="160.0" text="Nhân vật lịch sử liên quan:">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </center>
+</BorderPane>

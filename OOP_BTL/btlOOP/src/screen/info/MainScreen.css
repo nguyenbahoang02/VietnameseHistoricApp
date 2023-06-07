@@ -1,0 +1,94 @@
+.root {
+  	-fx-background-color: white;
+}
+
+/* search */
+.search-title .text {
+  	-fx-font-size: 26px;
+  	-fx-font-weight: 700;
+  	-fx-fill: #b31217;
+}
+
+.search-input {
+  	-fx-font-size: 14px;
+  	-fx-border-radius: 50px;
+  	-fx-background-radius: 50px;
+  	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 2, 0, 0, 0);
+}
+
+.search-input .text {
+  	-fx-font-size: 14px;
+}
+
+.noti-title .text {
+  	-fx-fill: red;
+}
+
+/* Tab pane */
+
+.tab-pane:top .tab-header-area .tab-header-background {
+  	-fx-background-color: #b31217;
+}
+
+.tab-pane:top {
+  	-fx-tab-min-width: 180px;
+}
+
+.tab-pane:top .tab-header-area .headers-region .tab:top {
+  	-fx-background-color: #b31217;
+  	-fx-cursor: hand;
+  	-fx-focus-color: transparent;
+}
+
+.tab-pane:selected{
+	-fx-focus-color: transparent;
+}
+
+.tab-pane:top .tab-header-area .headers-region .tab:top .text {
+  	-fx-fill: white;
+  	-fx-font-size: 14px;
+}
+
+.tab-pane:top .tab-header-area .headers-region .tab:selected:top .text {
+  	-fx-fill: #ecd619;
+  	-fx-underline: true;
+}
+
+.tab:focused {
+  	-fx-focus-color: transparent;
+}
+
+.tab:selected .focus-indicator{
+	-fx-focus-color: transparent;
+	-fx-border-color: transparent;
+}
+	
+
+/* Table */
+/* Lúc focus bị viền màu xanh */
+
+.table {
+  	-fx-background-radius: 0;
+  	-fx-background-insets: 0;
+  	-fx-border-width: 0 0 0 0;
+}
+
+.column-header-background .label .text {
+  	-fx-fill: #4a3030;
+  	-fx-font-size: 14px;
+}
+
+/* Info */
+/* Lúc focus bị viền màu xanh */
+.Info-box {
+  	-fx-background-color: #fff;
+}
+
+.Info-Name .text {
+  	-fx-fill: #3498db;
+}
+
+.scroll-pane:focused {
+	-fx-focus-color: #FFFFFF;
+}
+

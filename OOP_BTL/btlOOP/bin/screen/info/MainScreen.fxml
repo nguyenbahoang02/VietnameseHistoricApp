@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <VBox maxHeight="150.0" minHeight="100.0" prefHeight="101.0" prefWidth="600.0" style="-fx-alignment: center;" styleClass="header" BorderPane.alignment="CENTER">
+         <children>
+            <HBox minHeight="100.0" prefHeight="99.0" prefWidth="600.0">
+               <children>
+                  <ImageView fitHeight="105.0" fitWidth="227.0" pickOnBounds="true" preserveRatio="true" />
+                  <VBox prefHeight="100.0" prefWidth="601.0" style="-fx-alignment: center;">
+                     <children>
+                        <Label alignment="CENTER" styleClass="search-title" text="Tìm kiếm">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="searchField" maxWidth="312.0" onAction="#search" prefHeight="30.0" prefWidth="343.0" promptText="Search..." style="-fx-border-radius: 50%;" styleClass="search-input" />
+                        <Label fx:id="searchResult" alignment="CENTER" prefHeight="23.0" prefWidth="200.0" styleClass="noti-title" text="Không có kết quả!!!" />
+                     </children>
+                  </VBox>
+                  <ImageView fitHeight="103.0" fitWidth="213.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <TabPane fx:id="tabPane" prefHeight="691.0" prefWidth="1024.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab fx:id="tabPane_TDLS" text="Triều đại lịch sử ">
+                     <content>
+                        <BorderPane prefHeight="615.0" prefWidth="1024.0">
+                           <left>
+                              <TableView fx:id="tableTDLS" prefHeight="551.0" prefWidth="512.0" styleClass="table" BorderPane.alignment="CENTER">
+                                <columns>
+                                  <TableColumn fx:id="indexColTDLS" prefWidth="75.0" resizable="false" style="-fx-alignment: center;" text="Số thứ tự" />
+                                  <TableColumn fx:id="nameColTDLS" prefWidth="436.00001525878906" resizable="false" text="Tên" />
+                                </columns>
+                              </TableView>
+                           </left>
+                           <center>
+                              <ScrollPane fx:id="scrollPane_TDLS" minWidth="-Infinity" prefHeight="1000.0" prefWidth="512.0" BorderPane.alignment="CENTER">
+                                 <content>
+                                    <VBox fx:id="vBox_TDLS" focusTraversable="true" prefHeight="1000.0" prefWidth="512.0" style="-fx-alignment: center;" styleClass="Info-box">
+                                       <children>
+                                          <Label fx:id="TDLS_Name" styleClass="Info-Name" text="Name">
+                                             <font>
+                                                <Font size="40.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets top="20.0" />
+                                             </VBox.margin>
+                                          </Label>
+                                          <VBox fx:id="vBox_TDLS_Info" prefHeight="1000.0" prefWidth="512.0" spacing="10.0">
+                                             <children>
+                                                <HBox fx:id="hBox_TDLS_Time" minHeight="-Infinity" prefHeight="38.0" prefWidth="512.0">
+                                                   <children>
+                                                      <Label prefHeight="61.0" prefWidth="75.0" styleClass="Info-title" text="Thời gian:" wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox fx:id="hBox_TDLS_CountryName" minHeight="-Infinity" prefHeight="52.0" prefWidth="512.0">
+                                                   <children>
+                                                      <Label prefHeight="52.0" prefWidth="75.0" text="Tên nước: " wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox fx:id="hBox_TDLS_KeTuc" minHeight="-Infinity" prefHeight="52.0" prefWidth="512.0">
+                                                   <children>
+                                                      <Label prefHeight="52.0" prefWidth="75.0" text="Kế tục: " wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox fx:id="hBox_TDLS_TienNhiem" minHeight="-Infinity" prefHeight="52.0" prefWidth="512.0">
+                                                   <children>
+                                                      <Label prefHeight="52.0" prefWidth="75.0" text="Tiền nhiệm:" wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox fx:id="hBox_TDLS_HistoricalFigures" minHeight="-Infinity" prefHeight="52.0" prefWidth="512.0">
+                                                   <children>
+                                                      <Label prefHeight="52.0" prefWidth="152.0" text="Nhân vật lịch sử liên quan:" wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox fx:id="hBox_TDLS_Events" minHeight="-Infinity" prefHeight="52.0" prefWidth="512.0">
+                                                   <children>
+                                                      <Label prefHeight="52.0" prefWidth="157.0" text="Sự kiện lịch sử liên quan: " wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox fx:id="hBox_TDLS_Description" minHeight="-Infinity" prefHeight="257.0" prefWidth="512.0">
+                                                   <children>
+                                                      <Label prefHeight="52.0" prefWidth="75.0" text="Mô tả: " wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                      <Text fx:id="TDLS_Description" strokeType="OUTSIDE" strokeWidth="0.0" text="&#10;Bài viết tốt&#10;Hoàng Việt (28 tháng 2 năm 1928 – 31 tháng 12 năm 1967) là một nhạc sĩ người Việt Nam. Ông là một trong những nhạc sĩ đáng chú ý trong giai đoạn chiến tranh Việt Nam với nhiều tác phẩm nổi tiếng được sáng tác như &quot;Tình ca&quot;, &quot;Nhạc rừng&quot;, &quot;Lên ngàn&quot;, &quot;Lá xanh&quot;, &quot;Quê hương&quot;. Nhạc phẩm &quot;Tình ca&quot; do ông sáng tác năm 1957 đã ra đời trong những năm đầu Việt Nam bị chia cắt, là một trong ca khúc nổi tiếng nhất của ông, mở ra dòng ca khúc đấu tranh thống nhất đất nước trong lịch sử âm nhạc Việt Nam. Ngay sau khi ra đời, &quot;Tình ca&quot; đã được ca sĩ Quốc Hương thu thanh và phát trên sóng Đài Tiếng nói Việt Nam và gây được sự chú ý của thính giả trong và ngoài nước. Tuy nhiên, ca khúc đã bị một số quan chức văn hóa và cả một số văn nghệ sĩ phê phán, khi&#10;" wrappingWidth="417.13671875">
+                                                         <HBox.margin>
+                                                            <Insets right="4.0" />
+                                                         </HBox.margin>
+                                                      </Text>
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </VBox>
+                                 </content>
+                              </ScrollPane>
+                           </center>
+                        </BorderPane>
+                     </content></Tab>
+                <Tab text="Nhân vật lịch sử ">
+                     <content>
+                        <BorderPane prefHeight="615.0" prefWidth="1024.0">
+                           <left>
+                              <TableView fx:id="tableNVLS" prefHeight="551.0" prefWidth="512.0" BorderPane.alignment="CENTER">
+                                 <columns>
+                                    <TableColumn fx:id="indexColNVLS" prefWidth="75.0" resizable="false" style="-fx-alignment: center;" text="Số thứ tự" />
+                                    <TableColumn fx:id="nameColNVLS" prefWidth="437.0" resizable="false" text="Tên" />
+                                 </columns>
+                              </TableView>
+                           </left>
+                           <center>
+                              <ScrollPane fx:id="scrollPane_NVLS" prefHeight="1000.0" prefWidth="512.0" BorderPane.alignment="CENTER">
+                                 <content>
+                                    <VBox fx:id="vBox_NVLS" prefHeight="1000.0" prefWidth="512.0" style="-fx-alignment: center;" styleClass="Info-box">
+                                       <children>
+                                          <Label fx:id="NVLS_Name" styleClass="Info-Name" text="Name">
+                                             <font>
+                                                <Font size="40.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets top="20.0" />
+                                             </VBox.margin>
+                                          </Label>
+                                          <VBox fx:id="vBox_NVLS_Info" prefHeight="1000.0" prefWidth="512.0" spacing="10.0">
+                                             <children>
+                                                <HBox fx:id="hBox_NVLS_Date" minHeight="-Infinity" prefHeight="38.0" prefWidth="513.0">
+                                                   <children>
+                                                      <Label prefHeight="61.0" prefWidth="75.0" text="Ngày sinh:" wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox fx:id="hBox_NVLS_HomeTown" minHeight="-Infinity" prefHeight="52.0" prefWidth="513.0">
+                                                   <children>
+                                                      <Label prefHeight="52.0" prefWidth="75.0" text="Quê quán:" wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox fx:id="hBox_NVLS_Dynasty" minHeight="-Infinity" prefHeight="52.0" prefWidth="513.0">
+                                                   <children>
+                                                      <Label prefHeight="52.0" prefWidth="75.0" text="Triều đại:" wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox fx:id="hBox_NVLS_HistoricalSites" minHeight="-Infinity" prefHeight="52.0" prefWidth="513.0">
+                                                   <children>
+                                                      <Label prefHeight="52.0" prefWidth="152.0" text="Di tích lịch sử liên quan:" wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox fx:id="hBox_NVLS_Events" minHeight="-Infinity" prefHeight="52.0" prefWidth="513.0">
+                                                   <children>
+                                                      <Label prefHeight="52.0" prefWidth="157.0" text="Sự kiện lịch sử liên quan: ">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox fx:id="hBox_NVLS_Description" minHeight="-Infinity" prefHeight="52.0" prefWidth="514.0">
+                                                   <children>
+                                                      <Label prefHeight="52.0" prefWidth="75.0" text="Mô tả: " wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                      <Text fx:id="NVLS_Description" strokeType="OUTSIDE" strokeWidth="0.0" text="&#10;Bài viết tốt&#10;Hoàng Việt (28 tháng 2 năm 1928 – 31 tháng 12 năm 1967) là một nhạc sĩ người Việt Nam. Ông là một trong những nhạc sĩ đáng chú ý trong giai đoạn chiến tranh Việt Nam với nhiều tác phẩm nổi tiếng được sáng tác như &quot;Tình ca&quot;, &quot;Nhạc rừng&quot;, &quot;Lên ngàn&quot;, &quot;Lá xanh&quot;, &quot;Quê hương&quot;. Nhạc phẩm &quot;Tình ca&quot; do ông sáng tác năm 1957 đã ra đời trong những năm đầu Việt Nam bị chia cắt, là một trong ca khúc nổi tiếng nhất của ông, mở ra dòng ca khúc đấu tranh thống nhất đất nước trong lịch sử âm nhạc Việt Nam. Ngay sau khi ra đời, &quot;Tình ca&quot; đã được ca sĩ Quốc Hương thu thanh và phát trên sóng Đài Tiếng nói Việt Nam và gây được sự chú ý của thính giả trong và ngoài nước. Tuy nhiên, ca khúc đã bị một số quan chức văn hóa và cả một số văn nghệ sĩ phê phán, khi&#10;" wrappingWidth="417.13671875">
+                                                         <HBox.margin>
+                                                            <Insets top="18.0" />
+                                                         </HBox.margin></Text>
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </VBox>
+                                 </content>
+                              </ScrollPane>
+                           </center>
+                        </BorderPane>
+                     </content>
+                </Tab>
+                  <Tab fx:id="tabPane_DTLS" text="Di tích lịch sử">
+                     <content>
+                        <BorderPane prefHeight="615.0" prefWidth="1024.0">
+                           <left>
+                              <TableView fx:id="tableDTLS" prefHeight="551.0" prefWidth="512.0" BorderPane.alignment="CENTER">
+                                 <columns>
+                                    <TableColumn fx:id="indexColDTLS" prefWidth="75.0" resizable="false" style="-fx-alignment: center;" text="Số thứ tự" />
+                                    <TableColumn fx:id="nameColDTLS" prefWidth="437.0" resizable="false" text="Tên" />
+                                 </columns>
+                              </TableView>
+                           </left>
+                           <center>
+                              <ScrollPane fx:id="scrollPane_DTLS" prefHeight="200.0" prefWidth="512.0" BorderPane.alignment="CENTER">
+                                 <content>
+                                    <VBox fx:id="vBox_DTLS" prefHeight="638.0" prefWidth="512.0" spacing="10.0" style="-fx-alignment: center;" styleClass="Info-box">
+                                       <children>
+                                          <HBox prefHeight="200.0" prefWidth="480.0">
+                                             <children>
+                                                <Label fx:id="DTLS_Name" prefHeight="200.0" prefWidth="480.0" styleClass="Info-Name" text="Name" wrapText="true">
+                                                   <font>
+                                                      <Font size="40.0" />
+                                                   </font>
+                                                   <padding>
+                                                      <Insets left="10.0" />
+                                                   </padding>
+                                                </Label>
+                                             </children>
+                                             <VBox.margin>
+                                                <Insets top="10.0" />
+                                             </VBox.margin>
+                                             <padding>
+                                                <Insets left="10.0" />
+                                             </padding>
+                                          </HBox>
+                                          <VBox fx:id="vBox_DTLS_Info" prefHeight="561.0" prefWidth="512.0" spacing="10.0">
+                                             <children>
+                                                <HBox fx:id="hBox_DTLS_Location" minHeight="-Infinity" prefHeight="38.0" prefWidth="480.0">
+                                                   <children>
+                                                      <Label prefHeight="61.0" prefWidth="75.0" text="Địa điểm:" wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox fx:id="hBox_DTLS_HistoricalFigures" minHeight="-Infinity" prefHeight="52.0" prefWidth="480.0">
+                                                   <children>
+                                                      <Label prefHeight="52.0" prefWidth="152.0" text="Nhân vật lịch sử liên quan:" wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </VBox>
+                                 </content>
+                              </ScrollPane>
+                           </center>
+                        </BorderPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Lễ hội văn hóa">
+                     <content>
+                        <BorderPane prefHeight="615.0" prefWidth="1024.0">
+                           <left>
+                              <TableView fx:id="tableLHVH" prefHeight="551.0" prefWidth="512.0" BorderPane.alignment="CENTER">
+                                 <columns>
+                                    <TableColumn fx:id="indexColLHVH" prefWidth="75.0" resizable="false" style="-fx-alignment: center;" text="Số thứ tự" />
+                                    <TableColumn fx:id="nameColLHVH" prefWidth="437.0" resizable="false" text="Tên" />
+                                 </columns>
+                              </TableView>
+                           </left>
+                           <center>
+                              <ScrollPane fx:id="scrollPane_LHVH" prefHeight="200.0" prefWidth="512.0" BorderPane.alignment="CENTER">
+                                 <content>
+                                    <VBox fx:id="vBox_LHVH" prefHeight="638.0" prefWidth="512.0" style="-fx-alignment: center;" styleClass="Info-box">
+                                       <children>
+                                          <Label fx:id="LHVH_Name" styleClass="Info-Name" text="Name">
+                                             <font>
+                                                <Font size="40.0" />
+                                             </font>
+                                             <VBox.margin>
+                                                <Insets top="20.0" />
+                                             </VBox.margin>
+                                          </Label>
+                                          <VBox fx:id="vBox_LHVH_Info" prefHeight="561.0" prefWidth="512.0" spacing="10.0">
+                                             <children>
+                                                <HBox fx:id="hBox_LHVH_Time" minHeight="-Infinity" prefHeight="38.0" prefWidth="513.0">
+                                                   <children>
+                                                      <Label prefHeight="61.0" prefWidth="75.0" text="Thời gian:" wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox fx:id="hBox_LHVH_Location" minHeight="-Infinity" prefHeight="52.0" prefWidth="513.0">
+                                                   <children>
+                                                      <Label prefHeight="52.0" prefWidth="75.0" text="Địa điểm:" wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox fx:id="hBox_LHVH_HistoricalSites" minHeight="-Infinity" prefHeight="52.0" prefWidth="513.0">
+                                                   <children>
+                                                      <Label prefHeight="52.0" prefWidth="134.0" text="Di tích lịch sử liên quan:" wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox fx:id="hBox_LHVH_HistoricalFigures" minHeight="-Infinity" prefHeight="52.0" prefWidth="513.0">
+                                                   <children>
+                                                      <Label prefHeight="52.0" prefWidth="152.0" text="Nhân vật lịch sử liên quan:" wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox fx:id="hBox_LHVH_Events" minHeight="-Infinity" prefHeight="52.0" prefWidth="513.0">
+                                                   <children>
+                                                      <Label prefHeight="52.0" prefWidth="157.0" text="Sự kiện lịch sử liên quan: " wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </VBox>
+                                 </content>
+                              </ScrollPane>
+                           </center>
+                        </BorderPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Sự kiện lịch sử ">
+                     <content>
+                        <BorderPane prefHeight="615.0" prefWidth="1024.0">
+                           <left>
+                              <TableView fx:id="tableSKLS" prefHeight="551.0" prefWidth="512.0" BorderPane.alignment="CENTER">
+                                 <columns>
+                                    <TableColumn fx:id="indexColSKLS" prefWidth="75.0" resizable="false" style="-fx-alignment: center;" text="Số thứ tự" />
+                                    <TableColumn fx:id="nameColSKLS" prefWidth="437.0" resizable="false" text="Tên" />
+                                 </columns>
+                              </TableView>
+                           </left>
+                           <center>
+                              <ScrollPane fx:id="scrollPane_SKLS" minWidth="-Infinity" prefHeight="200.0" prefWidth="512.0" BorderPane.alignment="CENTER">
+                                 <content>
+                                    <VBox fx:id="vBox_SKLS" prefHeight="638.0" prefWidth="495.0" spacing="10.0" style="-fx-alignment: center;" styleClass="Info-box">
+                                       <children>
+                                          <HBox prefHeight="200.0" prefWidth="480.0" style="-fx-alignment: CENTER_LEFT;">
+                                             <children>
+                                                <Label fx:id="SKLS_Name" alignment="CENTER" ellipsisString="" prefHeight="200.0" prefWidth="480.0" styleClass="Info-Name" text="Name" wrapText="true">
+                                                   <font>
+                                                      <Font size="40.0" />
+                                                   </font>
+                                                   <HBox.margin>
+                                                      <Insets />
+                                                   </HBox.margin>
+                                                   <padding>
+                                                      <Insets left="10.0" />
+                                                   </padding>
+                                                </Label>
+                                             </children>
+                                             <VBox.margin>
+                                                <Insets top="10.0" />
+                                             </VBox.margin>
+                                             <padding>
+                                                <Insets left="10.0" />
+                                             </padding>
+                                          </HBox>
+                                          <VBox fx:id="vBox_SKLS_Info" prefHeight="561.0" prefWidth="512.0" spacing="10.0">
+                                             <children>
+                                                <HBox fx:id="hBox_SKLS_Date" minHeight="-Infinity" prefHeight="38.0" prefWidth="513.0">
+                                                   <children>
+                                                      <Label prefHeight="61.0" prefWidth="75.0" text="Thời gian:" wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox fx:id="hBox_SKLS_HistoricalFigures" minHeight="-Infinity" prefHeight="52.0" prefWidth="513.0">
+                                                   <children>
+                                                      <Label prefHeight="52.0" prefWidth="152.0" text="Nhân vật lịch sử liên quan:" wrapText="true">
+                                                         <padding>
+                                                            <Insets left="4.0" />
+                                                         </padding>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </VBox>
+                                 </content>
+                              </ScrollPane>
+                           </center>
+                        </BorderPane>
+                     </content>
+                  </Tab>
+              </tabs>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TabPane>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

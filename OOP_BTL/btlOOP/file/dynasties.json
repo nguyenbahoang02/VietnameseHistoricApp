@@ -1,0 +1,261 @@
+[
+{
+  "Description": "Trở lên là [kỷ] Hồng Bàng thị, từ Kinh Dương Vương được phong năm Nhâm Tuất, cùng thời với Đế Nghi, truyền đến cuối thời vua Hùng Vương, ngang với đời Noãn Vương nhà Chu năm thứ 57 [258 TCN] là năm Quý Mão thì hết, tất cả 2.622 năm [2879 - 258 TCN].",
+  "HistoricalFiguresId": [
+    260,
+    269,
+    244
+  ],
+  "EventsId": [],
+  "KeTuc": "Nhà thục",
+  "time": "2879 - 258 TCN",
+  "name": "Nhà vua hùng",
+  "id": 1735
+},
+{
+  "Description": "Trở lên là [kỷ] An Dương Vương, khởi từ năm Giáp Thìn đến năm Quý Tỵ là hết, tất cả 50 năm [257 - 208 TCN].",
+  "HistoricalFiguresId": [
+    0
+  ],
+  "EventsId": [],
+  "KeTuc": "Nhà Triệu",
+  "TienNhiem": "Nhà vua hùng",
+  "time": "257 - 208 TCN",
+  "name": "Nhà thục",
+  "id": 1736
+},
+{
+  "CountryName": "Nam Việt",
+  "Description": "Nhà Triệu (chữ Hán: 趙朝; bính âm: Zhào cháo; Hán Việt: Triệu triều) là triều đại duy nhất cai trị nước Nam Việt (ngày nay gồm 1 phần của Miền Nam Trung Quốc và Miền Bắc Việt Nam) suốt giai đoạn 204–111 trước Công nguyên.",
+  "HistoricalFiguresId": [
+    1408
+  ],
+  "EventsId": [
+    1479,
+    1478,
+    1479,
+    1480,
+    1481,
+    1482
+  ],
+  "KeTuc": "Nhà Tiền Lý",
+  "TienNhiem": "Nhà thục",
+  "time": "204 TCN–111 TCN",
+  "name": "Nhà Triệu",
+  "id": 1737
+},
+{
+  "CountryName": "Vạn Xuân",
+  "Description": "Nhà Tiền Lý (chữ Nôm: 茹前李, chữ Hán: 前李朝, Hán Việt: Tiền Lý triều, 544 – 602) là một triều đại trong lịch sử Việt Nam, gắn liền với quốc hiệu Vạn Xuân. Nhà Tiền Lý kéo dài 61 năm và nước Vạn Xuân kéo dài 58 năm, tổng cộng ba đời vua, trong đó có hai vua họ Lý và một vua họ Triệu cũng được tính gộp vào nhà Tiền Lý, tương tự như Dương Tam Kha trong nhà Ngô sau đó.",
+  "HistoricalFiguresId": [
+    489,
+    1314,
+    499
+  ],
+  "EventsId": [
+    1497,
+    1498
+  ],
+  "KeTuc": "Nhà Ngô",
+  "TienNhiem": "Nhà Triệu",
+  "time": "544–602",
+  "name": "Nhà Tiền Lý",
+  "id": 1916
+},
+{
+  "CountryName": "Tĩnh Hải quân",
+  "Description": "Nhà Ngô (chữ Nôm: 茹吳, chữ Hán: 吳朝, Hán Việt: Ngô triều) là một triều đại quân chủ trong lịch sử Việt Nam, truyền được hai đời nhưng có tới ba vị vua, kéo dài từ năm 939 đến năm 965. Khoảng thời gian xen giữa từ 944 đến 950 còn có Dương Bình Vương tức Dương Tam Kha. Khác với các triều đại quân chủ Việt Nam sau này, các vua nhà Ngô vẫn xưng tước vương mà chưa xưng đế hiệu trên phạm vi toàn lãnh thổ do họ cai trị.",
+  "HistoricalFiguresId": [
+    590,
+    67,
+    609
+  ],
+  "EventsId": [
+    1503,
+    1504,
+    1566,
+    1569,
+    1571,
+    1623
+  ],
+  "KeTuc": "Nhà Đinh",
+  "TienNhiem": "Nhà Tiền Lý",
+  "time": "939–965",
+  "name": "Nhà Ngô",
+  "id": 2095
+},
+{
+  "CountryName": "Đại Cồ Việt",
+  "Description": "Nhà Đinh (chữ Nôm: 茹丁, chữ Hán: 丁朝, Hán Việt: Đinh triều) là triều đại quân chủ phong kiến trong lịch sử Việt Nam bắt đầu năm 968, sau khi Đinh Tiên Hoàng dẹp xong loạn 12 sứ quân thống nhất đất nước và kết thúc năm 980 khi con của Đinh Tiên Hoàng là Đinh Phế Đế nhường ngôi cho Lê Hoàn.",
+  "HistoricalFiguresId": [
+    128,
+    126
+  ],
+  "EventsId": [
+    1505,
+    1506,
+    1571,
+    1572,
+    1509
+  ],
+  "KeTuc": "Nhà Tiền Lê",
+  "TienNhiem": "Nhà Ngô",
+  "time": "968–980",
+  "name": "Nhà Đinh",
+  "id": 2274
+},
+{
+  "CountryName": "Đại Cồ Việt",
+  "Description": "Nhà Lê (chữ Nôm: 茹黎, chữ Hán: 黎朝, Hán Việt: Lê triều), hay còn được gọi là nhà Tiền Lê (chữ Nôm: 家前黎, Chữ Hán: 前黎朝, Hán Việt: Tiền Lê triều)[2] là một triều đại quân chủ trong lịch sử Việt Nam, bắt đầu khi Đinh Phế Đế nhường ngôi cho Lê Hoàn vào năm 980, trải qua ba đời quân chủ và chấm dứt khi Lê Long Đĩnh qua đời. Quốc hiệu vẫn là Đại Cồ Việt.",
+  "HistoricalFiguresId": [
+    304,
+    412,
+    357
+  ],
+  "EventsId": [
+    1509,
+    1580,
+    1581
+  ],
+  "KeTuc": "Nhà Lý",
+  "TienNhiem": "Nhà Đinh",
+  "time": "980–1009",
+  "name": "Nhà Tiền Lê",
+  "id": 2453
+},
+{
+  "CountryName": "Đại Việt",
+  "Description": "Nhà Lý (chữ Nôm: 茹李, chữ Hán: 李朝, Hán Việt: Lý triều), đôi khi gọi là nhà Hậu Lý (để phân biệt với triều đại Tiền Lý do Lý Bí thành lập) là một triều đại trong nền quân chủ Việt Nam. Triều đại này bắt đầu khi Lý Công Uẩn lên ngôi vào tháng 10 âm lịch năm 1009 sau khi giành được quyền lực từ tay nhà Tiền Lê. Triều đại này trải qua 9 vị hoàng đế và chấm dứt khi Lý Chiêu Hoàng, lúc đó mới có 7 tuổi, bị ép thoái vị để nhường ngôi cho chồng là Trần Cảnh vào năm 1225 – tổng cộng là 216 năm.",
+  "HistoricalFiguresId": [
+    506,
+    454
+  ],
+  "EventsId": [
+    1581
+  ],
+  "KeTuc": "Nhà Trần",
+  "TienNhiem": "Nhà Tiền Lê",
+  "time": "1009–1225",
+  "name": "Nhà Lý",
+  "id": 2632
+},
+{
+  "CountryName": "Đại Việt",
+  "Description": "Nhà Trần (chữ Nôm: 茹陳, chữ Hán: 陳朝, Hán Việt: Trần triều) là một triều đại quân chủ cai trị nước Đại Việt từ năm 1226 đến năm 1400. Đây là triều đại được lưu danh với những chiến công hiển hách trong lịch sử Việt Nam. Triều đại này khởi đầu khi Trần Cảnh lên ngôi vào năm 1226 sau khi được vợ là Lý Chiêu Hoàng truyền ngôi. Những năm đầu tiên, Trần Cảnh còn nhỏ tuổi, toàn bộ quyền hành của nhà Trần đều do một tông thất vai chú của Trần Cảnh là Trần Thủ Độ nắm quyền, chính Trần Thủ Độ đã âm thầm ép Lý Chiêu Hoàng nhường ngôi cho cháu mình.",
+  "HistoricalFiguresId": [
+    1233,
+    1241
+  ],
+  "EventsId": [
+    1583,
+    1514,
+    1517,
+    1518,
+    1521,
+    1584
+  ],
+  "KeTuc": "Nhà Hồ",
+  "TienNhiem": "Nhà Lý",
+  "time": "1226–1400",
+  "name": "Nhà Trần",
+  "id": 2811
+},
+{
+  "CountryName": "Đại Ngu",
+  "Description": "Nhà Hồ (chữ Nôm: 茹胡, chữ Hán: 胡朝, Hán Việt: Hồ triều) là một triều đại quân chủ trong lịch sử Việt Nam, bắt đầu khi Hồ Quý Ly lên ngôi năm 1400 sau khi giành được quyền lực từ tay nhà Trần và chấm dứt khi Hồ Hán Thương bị quân Minh bắt vào năm 1407 – tổng cộng là 7 năm. Quốc hiệu Đại Việt đã đổi thành Đại Ngu năm 1400, với ý nghĩa là sự an vui lớn.",
+  "HistoricalFiguresId": [
+    177,
+    171
+  ],
+  "EventsId": [
+    1521,
+    1584,
+    1521,
+    1522,
+    1523,
+    1585
+  ],
+  "KeTuc": "Nhà Hậu Lê",
+  "TienNhiem": "Nhà Trần",
+  "time": "1400–1407",
+  "name": "Nhà Hồ",
+  "id": 2990
+},
+{
+  "Description": "Nhà Hậu Lê (chữ Nôm: 茹後黎, chữ Hán: 後黎朝, Hán Việt: Hậu Lê triều; (1428-1789) là một triều đại phong kiến Việt Nam tồn tại sau thời Bắc thuộc lần 4 và đồng thời với nhà Mạc, nhà Tây Sơn trong một thời gian, trước Nhà Nguyễn",
+  "HistoricalFiguresId": [],
+  "EventsId": [],
+  "KeTuc": "Nhà Mạc",
+  "TienNhiem": "Nhà Hồ",
+  "name": "Nhà Hậu Lê",
+  "id": 3169
+},
+{
+  "CountryName": "Đại Việt Mạc triều (莫朝 )",
+  "Description": "Nhà Mạc (chữ Hán: 莫朝 / Mạc triều) là triều đại quân chủ trong lịch sử Việt Nam, bắt đầu khi Mạc Đăng Dung, sau khi dẹp được các bè phái trong cung đình, đã ép vua Lê Cung Hoàng nhà Hậu Lê nhường ngôi tháng 6 năm 1527 và chấm dứt khi vua Mạc Mậu Hợp lập con trai là Mạc Toàn lên ngôi, bị quân đội Lê-Trịnh do Trịnh Tùng chỉ huy đánh bại vào cuối năm 1592 – Sau đó Mạc Toàn lên ngôi nhưng tại vị chỉ được 2 tháng, tổng cộng thời gian tồn tại chính thức của triều đại là gần 66 năm.",
+  "HistoricalFiguresId": [
+    554,
+    563,
+    550,
+    553
+  ],
+  "EventsId": [
+    1534,
+    1534,
+    1535,
+    1536,
+    1537,
+    1536,
+    1536
+  ],
+  "KeTuc": "Nhà Tây Sơn",
+  "TienNhiem": "Nhà Hậu Lê",
+  "time": "1527–1677",
+  "name": "Nhà Mạc",
+  "id": 3348
+},
+{
+  "CountryName": "Đại Việt",
+  "Description": "Nhà Tây Sơn (chữ Nôm: 家西山, chữ Hán: 西山朝 / Tây Sơn triều) là một triều đại quân chủ trong lịch sử Việt Nam tồn tại từ năm 1778 đến năm 1802, được thành lập trong bối cảnh tranh chấp quyền lực cuối thời Lê Trung hưng (1533–1789). Theo cách gọi của phần lớn sử gia, nhất là các sử gia hiện đại[1] tại Việt Nam thì \"nhà Tây Sơn\" được dùng để gọi triều đại của anh em Nguyễn Nhạc, Nguyễn Lữ và Nguyễn Huệ để phân biệt với nhà Nguyễn của Nguyễn Ánh (vì cùng họ Nguyễn). Ngoài ra, \"Tây Sơn\" cũng chỉ các lãnh tụ và quân đội khởi nghĩa xuất thân từ ấp Tây Sơn; cũng được dùng làm tên cuộc chiến của Tây Sơn.",
+  "HistoricalFiguresId": [
+    757,
+    694,
+    790
+  ],
+  "EventsId": [
+    1545,
+    1587,
+    1542,
+    1545,
+    1587,
+    1546,
+    1589,
+    1547,
+    1590,
+    1548
+  ],
+  "KeTuc": "Nhà Nguyễn",
+  "TienNhiem": "Nhà Mạc",
+  "time": "1778–1802",
+  "name": "Nhà Tây Sơn",
+  "id": 3527
+},
+{
+  "CountryName": "Đại Việt (1802–1804) Việt Nam (1804–1839) Đại Nam (1839–1945)",
+  "Description": "Nhà Nguyễn (chữ Nôm: 茹阮, chữ Hán: 阮朝; Hán-Việt: Nguyễn triều) là triều đại quân chủ cuối cùng trong lịch sử Việt Nam. Nhà Nguyễn được thành lập sau khi Nguyễn Ánh (Gia Long) lên ngôi hoàng đế năm 1802 và kết thúc khi Bảo Đại thoái vị vào năm 1945, tổng cộng là 143 năm. Triều Nguyễn là một triều đại đánh dấu nhiều thăng trầm trong lịch sử Việt Nam, đặc biệt là cuộc xâm lược của người Pháp giữa thế kỷ 19.",
+  "HistoricalFiguresId": [
+    163,
+    165,
+    3
+  ],
+  "EventsId": [
+    1592,
+    1602
+  ],
+  "TienNhiem": "Nhà Tây Sơn",
+  "time": "1802–1945",
+  "name": "Nhà Nguyễn",
+  "id": 3706
+}
+
+]

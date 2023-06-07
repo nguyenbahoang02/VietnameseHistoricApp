@@ -1,0 +1,743 @@
+[
+{
+  "historicalFiguresId": [],
+  "location": "Thôn Tân Lập, xã Tân Trào, huyện Sơn Dương, tỉnh Tuyên Quang",
+  "name": "Chiến khu Tân Trào",
+  "id": 1637
+},
+{
+  "historicalFiguresId": [],
+  "location": "thôn Tức Mạc, thành phố Nam Định",
+  "name": "chùa Phổ Minh",
+  "id": 1638
+},
+{
+  "historicalFiguresId": [],
+  "location": "Sài Sơn, huyện Quốc Oai, Hà Nội",
+  "name": "chùa Thầy",
+  "id": 1639
+},
+{
+  "historicalFiguresId": [],
+  "location": "135 Nam Kỳ khởi nghĩa, phường Bến Nghé, quận 1, Thành phố Hồ Chí Minh, Việt Nam",
+  "name": "Dinh Độc Lập",
+  "id": 1640
+},
+{
+  "historicalFiguresId": [],
+  "location": "quận Hoàn Kiếm, thành phố Hà Nội, Việt Nam",
+  "name": "Đền Ngọc Sơn",
+  "id": 1641
+},
+{
+  "historicalFiguresId": [],
+  "location": "xã Phù Đổng, huyện Gia Lâm, thành phố Hà Nội, Việt Nam",
+  "name": "Đền Phù Đổng",
+  "id": 1642
+},
+{
+  "historicalFiguresId": [],
+  "location": "phường Lộc Vượng, thành phố Nam Định, tỉnh Nam Định, Việt Nam",
+  "name": "Đền Trần (Nam Định)",
+  "id": 1643
+},
+{
+  "historicalFiguresId": [],
+  "location": "làng Tam Đường, xã Tiến Đức, huyện Hưng Hà, tỉnh Thái Bình, Việt Nam",
+  "name": "Đền Trần (Thái Bình)",
+  "id": 1644
+},
+{
+  "historicalFiguresId": [],
+  "location": "quận Hoàn Kiếm, Hà Nội",
+  "name": "Hồ Hoàn Kiếm",
+  "id": 1645
+},
+{
+  "historicalFiguresId": [],
+  "location": "khu Phố Thượng, phường Đình Bảng, thị xã Từ Sơn, tỉnh Bắc Ninh, Việt Nam",
+  "name": "Khu lăng mộ và đền thờ các vị vua triều Lý",
+  "id": 1646
+},
+{
+  "historicalFiguresId": [],
+  "location": "Quảng Trị",
+  "name": "Thành cổ Quảng Trị",
+  "id": 1647
+},
+{
+  "historicalFiguresId": [
+    77,
+    128,
+    304,
+    355,
+    410,
+    747,
+    1101
+  ],
+  "location": "Tỉnh Ninh Bình",
+  "name": "DTLS và KTNT Cố đô Hoa Lư",
+  "id": 1648
+},
+{
+  "historicalFiguresId": [
+    38,
+    228,
+    492,
+    510,
+    1100,
+    1380
+  ],
+  "location": "Thành phố Hà Nội",
+  "name": "DTLS và KTNT Văn Miếu - Quốc Tử Giám",
+  "id": 1649
+},
+{
+  "historicalFiguresId": [
+    970,
+    1166,
+    1166,
+    1169,
+    1169,
+    1204,
+    1214,
+    1221,
+    1235
+  ],
+  "location": "Tỉnh Hải Dương",
+  "name": "DTLS và KTNT Côn Sơn - Kiếp Bạc",
+  "id": 1650
+},
+{
+  "historicalFiguresId": [],
+  "location": "Tỉnh Thanh Hóa",
+  "name": "DTLS và KTNT Thành Nhà Hồ",
+  "id": 1651
+},
+{
+  "historicalFiguresId": [
+    203,
+    204,
+    1214
+  ],
+  "location": "Tỉnh Bắc Giang",
+  "name": "DTLS Những địa điểm Khởi nghĩa Yên Thế",
+  "id": 1652
+},
+{
+  "historicalFiguresId": [
+    319,
+    611
+  ],
+  "location": "Tỉnh Bà Rịa - Vũng Tàu",
+  "name": "DTLS Nhà tù Côn Đảo",
+  "id": 1653
+},
+{
+  "historicalFiguresId": [
+    169,
+    230,
+    801,
+    805,
+    971
+  ],
+  "location": "Tỉnh Nghệ An",
+  "name": "DTLS Khu lưu niệm Chủ tịch Hồ Chí Minh tại Kim Liên",
+  "id": 1654
+},
+{
+  "historicalFiguresId": [
+    169,
+    1107
+  ],
+  "location": "Tỉnh An Giang",
+  "name": "DTLS Khu lưu niệm Chủ tịch Tôn Đức Thắng tại Mỹ Hòa Hưng",
+  "id": 1655
+},
+{
+  "historicalFiguresId": [
+    169,
+    610
+  ],
+  "location": "Tỉnh Cao Bằng",
+  "name": "DTLS Pác Bó",
+  "id": 1656
+},
+{
+  "historicalFiguresId": [
+    169,
+    694,
+    1107,
+    1388
+  ],
+  "location": "Tỉnh Tuyên Quang",
+  "name": "DTLS Tân Trào",
+  "id": 1657
+},
+{
+  "historicalFiguresId": [
+    169,
+    1388
+  ],
+  "location": "Tỉnh Thái Nguyên",
+  "name": "DTLS An toàn khu (ATK) Định Hóa",
+  "id": 1658
+},
+{
+  "historicalFiguresId": [
+    169,
+    238,
+    250,
+    290,
+    312,
+    711,
+    1011
+  ],
+  "location": "Tỉnh Tây Ninh",
+  "name": "DTLS Căn cứ Trung ương Cục miền Nam",
+  "id": 1659
+},
+{
+  "historicalFiguresId": [
+    0,
+    78,
+    568
+  ],
+  "location": "Thành phố Hà Nội",
+  "name": "DTLS, KTNT và KC Cổ Loa",
+  "id": 1660
+},
+{
+  "historicalFiguresId": [
+    80,
+    985,
+    1214
+  ],
+  "location": "Tỉnh Nam Định",
+  "name": "DTLS và KTNT Đền Trần và Chùa Phổ Minh",
+  "id": 1661
+},
+{
+  "historicalFiguresId": [
+    985,
+    1024,
+    1166,
+    1166,
+    1169,
+    1169,
+    1214
+  ],
+  "location": "Tỉnh Quảng Nình",
+  "name": "DTLS Bạch Đằng",
+  "id": 1662
+},
+{
+  "historicalFiguresId": [
+    1204
+  ],
+  "location": "Tỉnh Quảng Ninh",
+  "name": "DTLS và DLTC Yên Tử",
+  "id": 1663
+},
+{
+  "historicalFiguresId": [
+    227,
+    315,
+    338,
+    386,
+    387,
+    393,
+    418,
+    595,
+    955
+  ],
+  "location": "Tỉnh Thanh Hóa",
+  "name": "DTLS và KTNT Lam Kinh",
+  "id": 1664
+},
+{
+  "historicalFiguresId": [
+    97,
+    652,
+    753,
+    970,
+    1380
+  ],
+  "location": "Tỉnh Hà Tĩnh",
+  "name": "DTLS Khu lưu niệm Nguyễn Du",
+  "id": 1665
+},
+{
+  "historicalFiguresId": [
+    169,
+    1388
+  ],
+  "location": "",
+  "name": "DTLS Đường Trường Sơn - Đường Hồ Chí Minh",
+  "id": 1666
+},
+{
+  "historicalFiguresId": [
+    164,
+    1339,
+    1341
+  ],
+  "location": "Thành phố Hà Nội",
+  "name": "DTLS Đền Hai Bà Trưng",
+  "id": 1667
+},
+{
+  "historicalFiguresId": [
+    164,
+    410,
+    411
+  ],
+  "location": "Thành phố Hà Nội",
+  "name": "DTLS Đền Hát Môn",
+  "id": 1668
+},
+{
+  "historicalFiguresId": [
+    227,
+    410,
+    985,
+    1100,
+    1117,
+    1135,
+    1157,
+    1161,
+    1187,
+    1204,
+    1206,
+    1233
+  ],
+  "location": "Tỉnh Quảng Ninh",
+  "name": "DTLS Khu di tích Nhà Trần tại Đông Triều",
+  "id": 1669
+},
+{
+  "historicalFiguresId": [
+    1166,
+    1166,
+    1169,
+    1169,
+    1388
+  ],
+  "location": "Tỉnh Cao Bằng",
+  "name": "DTLS Rừng Trần Hưng Đạo",
+  "id": 1670
+},
+{
+  "historicalFiguresId": [
+    39,
+    169
+  ],
+  "location": "Tỉnh Quảng Trị",
+  "name": "DTLS Đôi bờ Hiền Lương - Bến Hải",
+  "id": 1671
+},
+{
+  "historicalFiguresId": [
+    1305
+  ],
+  "location": "Tỉnh Quảng Trị",
+  "name": "DTLS Thành cổ Quảng Trị và những địa điểm lưu niệm sự kiện 81 ngày đêm năm 1972",
+  "id": 1672
+},
+{
+  "historicalFiguresId": [],
+  "location": "Tỉnh Hậu Giang",
+  "name": "DTLS Chiến thắng Chương Thiện",
+  "id": 1673
+},
+{
+  "historicalFiguresId": [
+    410,
+    492
+  ],
+  "location": "Thành phố Hà Nội",
+  "name": "DTLS Đền Phù Đổng",
+  "id": 1674
+},
+{
+  "historicalFiguresId": [
+    338,
+    386,
+    908,
+    971,
+    1437,
+    1438
+  ],
+  "location": "Thành phố Hà Nội",
+  "name": "DTLS và DLTC Hồ Hoàn Kiếm và Đền Ngọc Sơn",
+  "id": 1675
+},
+{
+  "historicalFiguresId": [
+    453,
+    471,
+    492,
+    506,
+    510,
+    960,
+    963,
+    1091
+  ],
+  "location": "Tỉnh Bắc Ninh",
+  "name": "DTLS Khu lăng mộ và đền thờ các vị vua triều Lý",
+  "id": 1676
+},
+{
+  "historicalFiguresId": [
+    162,
+    377,
+    985,
+    1100,
+    1204,
+    1206,
+    1214,
+    1243
+  ],
+  "location": "Tỉnh Thái Bình",
+  "name": "DTLS Khu lăng mộ và đền thờ các vị vua triều Trần",
+  "id": 1677
+},
+{
+  "historicalFiguresId": [
+    694,
+    734,
+    757,
+    977
+  ],
+  "location": "Tỉnh Bình Định",
+  "name": "DTLS Khu đền thờ Tây Sơn - Tam Kiệt",
+  "id": 1678
+},
+{
+  "historicalFiguresId": [],
+  "location": "Tỉnh Tiền Giang",
+  "name": "DTLS Địa điểm Chiến thắng Rạch Gầm - Xoài Mút",
+  "id": 1679
+},
+{
+  "historicalFiguresId": [
+    1214
+  ],
+  "location": "Tỉnh Sơn La",
+  "name": "DTLS Nhà tù Sơn La",
+  "id": 1680
+},
+{
+  "historicalFiguresId": [],
+  "location": "Tỉnh Kiên Giang",
+  "name": "DTLS Trại giam Phú Quốc",
+  "id": 1681
+},
+{
+  "historicalFiguresId": [],
+  "location": "Tỉnh Quảng Trị",
+  "name": "DTLS Địa đạo Vịnh Mốc và hệ thống làng hầm Vĩnh Linh",
+  "id": 1682
+},
+{
+  "historicalFiguresId": [
+    2,
+    604,
+    1109
+  ],
+  "location": "Tỉnh Thanh Hóa",
+  "name": "DTLS và KTNT Khu di tích Bà Triệu",
+  "id": 1683
+},
+{
+  "historicalFiguresId": [
+    241,
+    253,
+    410,
+    947,
+    975,
+    1091
+  ],
+  "location": "Tỉnh Hà Nội",
+  "name": "DTLS và KTNT Chùa Thầy và khu vực núi đá Sài Sơn, Hoàng Xá, Phượng Cách",
+  "id": 1684
+},
+{
+  "historicalFiguresId": [
+    0,
+    78,
+    324,
+    410,
+    411,
+    453,
+    507,
+    508,
+    510,
+    659,
+    660,
+    1197,
+    1204,
+    1334
+  ],
+  "location": "Tỉnh Bắc Ninh",
+  "name": "DTLS và KTNT Chùa Phật Tích",
+  "id": 1685
+},
+{
+  "historicalFiguresId": [
+    3,
+    38,
+    115,
+    118,
+    325,
+    326,
+    567,
+    990,
+    1100,
+    1214,
+    1221,
+    1380
+  ],
+  "location": "Tỉnh Hưng Yên",
+  "name": "DTLS và KTNT Khu di tích Phố Hiến",
+  "id": 1686
+},
+{
+  "historicalFiguresId": [
+    3,
+    1204
+  ],
+  "location": "Tỉnh Bắc Giang",
+  "name": "DTLS và KTNT Chùa Vĩnh Nghiêm",
+  "id": 1687
+},
+{
+  "historicalFiguresId": [
+    1214,
+    1221,
+    1249
+  ],
+  "location": "Tỉnh Hà Nam",
+  "name": "DTLS và KTNT Đền Trần Thương",
+  "id": 1688
+},
+{
+  "historicalFiguresId": [],
+  "location": "Thành phố Hải Phòng",
+  "name": "DTLS Đền thờ Nguyễn Bỉnh Khiêm",
+  "id": 1689
+},
+{
+  "historicalFiguresId": [
+    203,
+    238,
+    1398
+  ],
+  "location": "Tỉnh Điện Biên",
+  "name": "DTLS Chiến trường Điện Biên Phủ (bổ sung thêm 23 điểm di tích)",
+  "id": 1690
+},
+{
+  "historicalFiguresId": [
+    188,
+    238,
+    310,
+    829,
+    1011,
+    1282,
+    1381
+  ],
+  "location": "Tỉnh Bình Phước",
+  "name": "DTLS Căn cứ Bộ Chỉ huy Quân Giải phóng miền Nam Việt Nam",
+  "id": 1691
+},
+{
+  "historicalFiguresId": [
+    188
+  ],
+  "location": "Thành phố Hồ Chí Minh",
+  "name": "DTLS Địa đạo Củ Chi",
+  "id": 1692
+},
+{
+  "historicalFiguresId": [
+    1204
+  ],
+  "location": "Tỉnh Vĩnh Phúc",
+  "name": "DTLS VÀ DLTC Tây Thiên - Tam Đảo",
+  "id": 1693
+},
+{
+  "historicalFiguresId": [],
+  "location": "Tỉnh Hải Dương",
+  "name": "DTLS và DLTC Quần thể An Phụ - Kính Chủ - Nhẫm Dương",
+  "id": 1694
+},
+{
+  "historicalFiguresId": [
+    253,
+    410,
+    411,
+    1100,
+    1380
+  ],
+  "location": "Tỉnh Bắc Giang",
+  "name": "DTLS và KTNT Chùa Bổ Đà",
+  "id": 1695
+},
+{
+  "historicalFiguresId": [
+    664,
+    850,
+    1349
+  ],
+  "location": "Tỉnh Bến Tre",
+  "name": "DTLS Mộ và Khu lưu niệm Nguyễn Đình Chiểu",
+  "id": 1696
+},
+{
+  "historicalFiguresId": [
+    80,
+    566,
+    805,
+    1057
+  ],
+  "location": "Tỉnh Nghệ An",
+  "name": "DTLS Khu Lưu niệm Phan Bội Châu tại Nam Đàn",
+  "id": 1697
+},
+{
+  "historicalFiguresId": [
+    1389,
+    1425
+  ],
+  "location": "Tỉnh Lạng Sơn",
+  "name": "DTLS Khởi nghĩa Bắc Sơn",
+  "id": 1698
+},
+{
+  "historicalFiguresId": [
+    169,
+    238,
+    636,
+    1045,
+    1047,
+    1214,
+    1221,
+    1388
+  ],
+  "location": "Tỉnh Bắc Kạn",
+  "name": "DTLS An toàn khu (ATK) Chợ Đồn",
+  "id": 1699
+},
+{
+  "historicalFiguresId": [
+    169,
+    610,
+    1045,
+    1047
+  ],
+  "location": "Tỉnh Tuyên Quang",
+  "name": "DTLS Địa điểm tổ chức Đại hội đại biểu toàn quốc lần thứ II của Đảng",
+  "id": 1700
+},
+{
+  "historicalFiguresId": [
+    244,
+    829
+  ],
+  "location": "Tỉnh Bến Tre",
+  "name": "DTLS Đồng Khởi Bến Tre",
+  "id": 1701
+},
+{
+  "historicalFiguresId": [
+    573
+  ],
+  "location": "Tỉnh Kon Tum",
+  "name": "DTLS Địa điểm Chiến thắng Đăk Tô - Tân Cảnh",
+  "id": 1702
+},
+{
+  "historicalFiguresId": [
+    253,
+    985,
+    1120,
+    1214,
+    1219,
+    1408,
+    1453
+  ],
+  "location": "Tỉnh Quảng Ninh",
+  "name": "DTLS Đền Cửa Ông",
+  "id": 1703
+},
+{
+  "historicalFiguresId": [
+    163,
+    567,
+    955
+  ],
+  "location": "Tỉnh Hải Dương",
+  "name": "DTLS Văn miếu Mao Điền",
+  "id": 1704
+},
+{
+  "historicalFiguresId": [],
+  "location": "Tỉnh Quảng Ngãi",
+  "name": "DTLS Địa điểm về Cuộc khởi nghĩa Ba Tơ",
+  "id": 1705
+},
+{
+  "historicalFiguresId": [],
+  "location": "Tỉnh Cao Bằng",
+  "name": "DTLS Địa điểm Chiến thắng Biên giới năm 1950",
+  "id": 1706
+},
+{
+  "historicalFiguresId": [],
+  "location": "Tỉnh Hà Nam",
+  "name": "DTLS Chùa Đọi Sơn",
+  "id": 1707
+},
+{
+  "historicalFiguresId": [],
+  "location": "Tỉnh Hải Dương",
+  "name": "DTLS Đền Xưa - Chùa Giám - Đền Bia",
+  "id": 1708
+},
+{
+  "historicalFiguresId": [],
+  "location": "Tỉnh Đà Nẵng",
+  "name": "DTLS Thành Điện Hải",
+  "id": 1709
+},
+{
+  "historicalFiguresId": [],
+  "location": "Tỉnh Hà Nội",
+  "name": "DTLS và DLTC Quần thể Hương Sơn",
+  "id": 1710
+},
+{
+  "historicalFiguresId": [
+    264,
+    694,
+    757,
+    949,
+    970,
+    979,
+    988,
+    1380
+  ],
+  "location": "Thành phố Hà Nội",
+  "name": "DTLS Gò Đống Đa",
+  "id": 1711
+},
+{
+  "historicalFiguresId": [],
+  "location": "Tỉnh Đắk Lắk",
+  "name": "DTLS Nhà đày Buôn Mê Thuột",
+  "id": 1712
+}
+
+]
